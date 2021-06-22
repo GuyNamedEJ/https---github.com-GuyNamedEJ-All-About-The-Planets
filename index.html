@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&family=Spartan:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The Planets | Learn about your planetary neighbors</title>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <h1>The Planets</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Mercury</a></li>
+          <li><a href="#">Venus</a></li>
+          <li><a href="#">Earth</a></li>
+          <li><a href="#">Mars</a></li>
+          <li><a href="#">Jupiter</a></li>
+          <li><a href="#">Saturn</a></li>
+          <li><a href="#">Uranus</a></li>
+          <li><a href="#">Neptune</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+<div class="wrapper">
+  <div class="planet-overview">
+    <div class="planet-img">
+      <img id = "planet" src="./assets/planet-mercury.svg" alt="Planet Image" />
+    </div>
+    <!--Planet Info Start-->
+    <div class="planet-info">
+      <h1 id="planet-name">Planet Facts! Come learn about the solar system</h1>
+
+      <p id="planet-summary">
+        Greetings explorer! Please click on one of the planet names above to view all the information
+        about it.
+      </p>
+
+          <div class="btn overview">
+              <h3>01 Overview</h3>
+          </div>
+  
+          <div class="btn internal-structure">
+              <h3>02 Internal Structure</h3>
+          </div>
+  
+          <div class="btn surface-geology">
+            <h3>03 Surface Geology</h3>
+          </div>
+
+    </div>
+    <!--Planet Info End-->
+  </div>
+
+  <div class="planet-stats">
+      <div class="rotation">
+        <h4>Rotation time</h4>
+        <h2>-</h2>
+      </div>
+
+      <div class="revolution">
+        <h4>Revolution time</h4>
+        <h2>-</h2>
+      </div>
+
+      <div class="radius">
+        <h4>Radius</h4>
+        <h2>-</h2>
+      </div>
+
+      <div class="temperature">
+        <h4>Average temp.</h4>
+        <h2>-</h2>
+      </div> 
+  </div>
+</div>
+    
+    <script scr="data.json"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
