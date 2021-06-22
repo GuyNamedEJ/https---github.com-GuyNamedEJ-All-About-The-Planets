@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*Global Style*/
+body{
+    min-width: 1440px;
+    background-color:#070724;
+    background-image:url(./assets/background-stars.svg);
+    background-size: cover;
+}
+
+.wrapper{
+    width: 100%;
+    margin:0 auto;
+    max-width: 1440px;
+}
+/*Heading Styles*/
+h1{
+    color:white;
+    font-family: 'Antonio', sans-serif;
+    font-size:80px;
+    text-transform: uppercase;
+}
+
+h2{
+    color:white;
+    font-family: 'Antonio', sans-serif;
+    font-size:40px;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+}
+
+h3{
+    color:white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+
+h4{
+    color:white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p{
+    color:white; 
+    font-family: 'Spartan', sans-serif;
+    font-size:14px;
+    line-height:25px;
+    margin-bottom: 24px;
+}
+
+/*Nav Bar Styling*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #838391;  
+    padding:10px 32px;
+}
+
+nav .wrapper
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color:white;
+    font-family: 'Antonio', sans-serif;
+    font-size:28px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around; 
+    width:45%;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color:#838391;
+    text-transform: uppercase;
+}
+
+/*Planet Display*/
+.planet-overview{
+    display: flex;
+    justify-content: space-between;
+    margin:126px 10%;
+}
+
+.planet-img{
+    display:flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.planet-info{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+}
+
+.btn{
+    display:flex;
+    align-items: center;
+    width: 350px;
+    height: 48px;
+    padding-left:28px;
+    margin:8px 0;
+    border:1px solid #38384F;
+}
+
+.btn:hover{
+    background:#38384F;
+}
+
+/*Planet Stats*/
+.planet-stats{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:87px 165px;
+}
+
+.stats{
+    border:1px solid #38384F;
+    width:255px;
+    padding-top:20px;
+    padding-left:23px;
+    padding-bottom:21px;
+}
+
